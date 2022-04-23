@@ -2,20 +2,22 @@
 
 h1,h2,h3,h4,h5,h6 {
   font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 p,li {
   font-family: "Open Sans", sans-serif;
+  color: white;
 }
 
 body {
-    background-color: black;
+    background-color: rgb(61, 61, 61);
     border: 2px #176334 solid;
     max-width: 550px;
     margin: 0 auto;
 }
 
-.profile-picture {
+.profile-pic {
     max-width: 200px;
     grid-column: 1;
 }
