@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap");
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,li {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: black;
+    border: 2px #176334 solid;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.profile-picture {
+    max-width: 200px;
+    grid-column: 1;
+}
