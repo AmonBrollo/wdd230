@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   color: white;
 }
 
@@ -10,9 +10,16 @@ p,li {
   color: white;
 }
 
+a {
+    color: white;
+  }
+
+a:visited{
+    color: black;
+}
+
 body {
     background-color: rgb(61, 61, 61);
-    border: 2px #176334 solid;
     max-width: 550px;
     margin: 0 auto;
 }
@@ -20,4 +27,49 @@ body {
 .profile-pic {
     max-width: 200px;
     grid-column: 1;
+    border-radius: 50%;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto;
+    grid-gap: 40px;
+    align-items: center;
+    background-color: #96A13A;
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 550px;
+    border-radius: 1.6%;
+  }
+  
+  header img {
+    max-width: 200px;
+    grid-column: 1;
+  }
+  
+  header h1 {
+    grid-column: 2;
+  }
+  
+  main {
+    padding: 0.5em 2em;
+    margin: 0 auto;
+    max-width: 550px;
+  }
+  
+  main li {
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  footer {
+    background-color: #96A13A;
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+  }  
