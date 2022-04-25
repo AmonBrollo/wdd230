@@ -11,7 +11,7 @@ p,li {
 }
 
 a {
-    color: white;
+    color: rgb(214, 162, 7);
   }
 
 a:visited{
@@ -25,7 +25,7 @@ body {
 }
 
 .profile-pic {
-    max-width: 200px;
+    max-width: 100%;
     grid-column: 1;
     border-radius: 50%;
 }
@@ -39,7 +39,6 @@ header {
     background-color: #96A13A;
     padding: 2em;
     margin: 0 auto;
-    max-width: 550px;
     border-radius: 1.6%;
   }
   
@@ -55,7 +54,6 @@ header {
   main {
     padding: 0.5em 2em;
     margin: 0 auto;
-    max-width: 550px;
   }
   
   main li {
@@ -67,7 +65,6 @@ header {
     background-color: #96A13A;
     padding: 2em;
     margin: 0 auto;
-    max-width: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
