@@ -18,8 +18,34 @@
         h1, h2, h3 {
             font-family: 'Tapestry', cursive;
         }
+        p,li {
+        font-family: "Open Sans", sans-serif;
+        color: white;
+        }
+        a {
+            color: rgb(214, 162, 7);
+        }
+        a:visited{
+            color: rgb(94, 94, 94);
+        }
         body {
+            background-color: rgb(61, 61, 61);
+            max-width: 550px;
+            margin: 0 auto;
             font-family: 'Lato', sans-serif;
+        }
+        header, footer {
+            background-color: #96A13A;
+            padding: 2em;
+            margin: 0 auto;
+            border-radius: 1.6%;
+            align-items: center;
+        }
+        header {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-rows: auto;
+            grid-gap: 40px;
         }
     </style>
 </head>
