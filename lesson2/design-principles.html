@@ -10,16 +10,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Principles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tapestry&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
     <style>
         h1, h2, h3 {
             font-family: 'Tapestry', cursive;
         }
+        h3 {
+        margin: 0;
+        height: 50px;
+        }
         p,li {
-        font-family: "Open Sans", sans-serif;
+        font-family: 'Lato', sans-serif;
         color: white;
         }
         a {
@@ -32,7 +36,6 @@
             background-color: rgb(61, 61, 61);
             max-width: 550px;
             margin: 0 auto;
-            font-family: 'Lato', sans-serif;
         }
         header, footer {
             background-color: #96A13A;
@@ -47,16 +50,83 @@
             grid-template-rows: auto;
             grid-gap: 40px;
         }
+        img {
+            width: 100%;
+        }
+        .title {
+        background-color: #96A13A;
+        margin: 0;
+        padding: 1em;
+        max-width: 250px;
+        }
     </style>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
-    <header>
-        <h1>Design Principles Document</h1>
-        <h2>Amon Brollo</h2>
-    </header>
-    <main>
-
-    </main>
+    <main class="design-principles">
+        <header>
+            <h1>Design Principles</h1>
+            <h2>Amon Brollo</h2>
+        </header>
+        <section>
+          <div class="title">
+            <h3>Alignment</h3>
+          </div>
+          <div class="company">
+            <h4>Yuool</h4>
+            <a href="yuool.com.br">yuool.com.br</a>
+          </div>
+          <div class="img">
+            <img
+              src="images/alignment.jpg"
+              alt="Mobile screenshot of Yuool's Webpage">
+          </div>
+          <p>
+            Looking at the page first glace the user can see a pleasing alignment 
+            of the companies product one by one.
+          </p>
+        </section>
+        <section>
+          <div class="title">
+            <h3>Contrast</h3>
+          </div>
+          <div class="company">
+            <h4>Target</h4>
+            <a href="vans.com.br">vans.com.br</a>
+          </div>
+          <div class="img">
+            <img
+              src="images/contrast.jpg"
+              alt="Mobile screenshot of Vans' Webpage"/>
+          </div>
+          <p>
+            Vans does a really nice job of contrasting their shoes' colors with their 
+            background. If the pair of shoes does not contrast well with the design 
+            then they have an alternitive background color to those shoes.
+          </p>
+        </section>
+        <section>
+          <div class="title">
+            <h3>Proximity</h3>
+          </div>
+          <div class="company">
+            <h4>PayPal</h4>
+            <a href="adidas.com.br">adidas.com.br</a>
+          </div>
+          <div class="img">
+            <img
+              src="images/proximity.jpg"
+              alt="Mobile screenshot of Adidas' Webpage"/>
+          </div>
+          <p>
+            Adidas does a great job of not only aligning their product's picture, but 
+            also the text under it. The title and subtitle are in a proximity to optimize
+            readability and clearness.
+          </p>
+        </section>
+      </main>
     <footer>
         <p class="copyright">&copy; <span id="currentYear"></span> | Amon Brollo | Brazil</p>
         <p class="update">Last Updated: <span id="lastUpdate"></span></p>
