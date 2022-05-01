@@ -1,15 +1,58 @@
+
+h1, h2, h3 {
+font-family: 'Tapestry', cursive;
+}
+h3 {
+margin: 0;
+height: 50px;
+}
+p,li {
+font-family: 'Lato', sans-serif;
+color: white;
+}
+a {
+color: rgb(214, 162, 7);
+}
+a:visited{
+color: rgb(94, 94, 94);
+}
+body {
+background-color: rgb(61, 61, 61);
+max-width: 550px;
+margin: 0 auto;
+}
+header, footer {
+background-color: #96A13A;
+padding: 2em;
+margin: 0 auto;
+border-radius: 1.6%;
+align-items: center;
+}
+header {
+display: grid;
+grid-template-columns: 200px 1fr;
+grid-template-rows: auto;
+grid-gap: 40px;
+}
+img {
+width: 100%;
+}
+.title {
+background-color: #96A13A;
+margin: 0;
+padding: 1em;
+max-width: 250px;
+}
 main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   justify-items: center;
 }
-
 header {
   width: 100%;
   text-align: center;
 }
-
 section {
   background-color: #dfedf6;
   border: 1px #afd2e9 solid;
@@ -17,18 +60,15 @@ section {
   margin: 0.5em 0.5em 2em;
   max-width: 300px;
 }
-
 h3 {
   margin: 0;
   height: 50px;
 }
-
 section p,
 .company {
   max-width: 250px;
   margin: 1em;
 }
-
 section .img {
   max-width: 250px;
   margin: 1em auto;
