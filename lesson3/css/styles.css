@@ -1,23 +1,30 @@
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Lato", sans-serif;
-    color: white;
-  }
-  
-  p,li {
-    font-family: "Open Sans", sans-serif;
-    color: white;
-  }
-  
-  a {
-      color: rgb(214, 162, 7);
-    }
-  
-  a:visited{
-      color: rgb(94, 94, 94);
-  }
-  
-  body {
-      background-color: rgb(61, 61, 61);
-      max-width: 550px;
-      margin: 0 auto;
-  }
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+p,li {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+a {
+  color: rgb(214, 162, 7);
+}
+a:visited{
+  color: rgb(94, 94, 94);
+} 
+body {
+  background-color: rgb(61, 61, 61);
+  max-width: 550px;
+  margin: 0 auto;
+}
+a {
+  display: block;
+}
+nav ul {
+  list-style: none;
+  align-items: center;
+}
+nav li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
