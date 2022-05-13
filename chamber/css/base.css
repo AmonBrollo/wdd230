@@ -7,10 +7,9 @@ p,li {
   color: white;
 }
 header, footer {
-    background-color: #F55D3E;
     padding: 2em;
     margin: 0 auto;
-    border-radius: 1.6%;
+    border-radius: 2%;
     align-items: center;
 }
 body {
@@ -23,4 +22,10 @@ a {
 }
 a:visited{
     color: rgb(94, 94, 94);
+}
+header {
+    background-color: black;
+}
+footer {
+    background-color: #F55D3E;
 }
