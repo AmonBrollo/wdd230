@@ -1,0 +1,26 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+p,li {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+header, footer {
+    background-color: #F55D3E;
+    padding: 2em;
+    margin: 0 auto;
+    border-radius: 1.6%;
+    align-items: center;
+}
+body {
+    background-color: #5E5E5E;
+    max-width: 550px;
+    margin: 0 auto;
+}
+a {
+    color: #D6A207;
+}
+a:visited{
+    color: rgb(94, 94, 94);
+}
