@@ -40,6 +40,9 @@ header h1 {
 header h2 {    
     font-size: 1em;
     margin-top: -30px;
+}.social-media img {
+    margin: 2px;
+    width: 30px;
 }
 nav {
 	margin: 0 auto;
