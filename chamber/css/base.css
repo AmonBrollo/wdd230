@@ -1,10 +1,10 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  font-style: white;
+}
 h1,h2,h3,h4,h5,h6 {
     font-family: "Lato", sans-serif;
     color: white;
-}
-p,li {
-  font-family: "Open Sans", sans-serif;
-  color: white;
 }
 header, footer {
     padding: 2em;
@@ -45,6 +45,9 @@ header .main-title {
     align-items: center;
     justify-content: space-between;
 }
+.upper-header.open {
+    align-items: flex-start;
+}
 .social-media img {
     margin: 2px;
     width: 30px;
@@ -59,6 +62,11 @@ nav {
 #navMenu {
 	list-style: none;
 	padding: 0;
+    margin: 0;
+    display: none;
+}
+#navMenu.open {
+    display: block;
 }
 #navMenu li:first-child {
 	display: block;
@@ -66,7 +74,7 @@ nav {
 #navMenu li {
 	display: none;
 }
-#navMenu a, .date {
+#navMenu a {
 	display: block;
 	padding: 0.75rem;
 	text-align: left;
@@ -79,4 +87,23 @@ nav {
 #navMenu a:hover {
 	color: white;
 	background-color: black;
+}
+#navMenu.open li {
+    display: block;
+}
+header button {
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+}
+#closeMenu {
+    display: none;
+}
+#menuButton.open #symbol {
+    display: none;
+}
+#menuButton.open #closeMenu {
+    display: block;
+    padding-left: 0.4em;
 }
