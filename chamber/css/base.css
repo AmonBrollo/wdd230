@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6 {
     color: white;
 }
 header, footer {
-    padding: 2em;
+    padding: 1em;
     margin: 0 auto;
     border-radius: 2%;
     align-items: center;
@@ -48,6 +48,9 @@ header .main-title {
 }
 .currentDate {
     text-align: center;
+    color: white;
+    margin-top: -6px;
+    margin-bottom: -4px;
 }
 nav {
 	margin: 0 auto;
