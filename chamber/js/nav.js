@@ -1,7 +1,4 @@
 function toggleMenu() {
-  document.getElementById('navMenu').classList.toggle('open');
-  document.getElementById('menuButton').classList.toggle('open');
+  document.getElementsByClassName("navigation")[0]
+  .classList.toggle("responsive");
 }
-
-const x = decument.getElementById('menuButton');
-x.onclick = toggleMenu;
