@@ -3,106 +3,86 @@ html {
   font-style: white;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Lato", sans-serif;
-    color: white;
+  font-family: "Lato", sans-serif;
+  color: white;
 }
 header, footer {
-    padding: 1em;
-    margin: 0 auto;
-    border-radius: 2%;
-    align-items: center;
+  padding: 1em;
+  margin: 0 auto;
+  border-radius: 2%;
+  align-items: center;
 }
 body {
-    background-color: #5E5E5E;
-    margin: 0 auto;
+  background-color: #5E5E5E;
+  margin: 0 auto;
 }
 a {
-    color: #D6A207;
+  color: #D6A207;
 }
 a:visited{
-    color: rgb(94, 94, 94);
+  color: rgb(94, 94, 94);
 }
+
+/* Header Styles */
 header {
-    background-color: black;
+  background-color: black;
 }
 img {
-    width: 75px;
+  width: 75px;
 }
 header h1 {    
-    font-size: 1em;
+  font-size: 1em;
 }
 header .main-title {    
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 .upper-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .upper-header.open {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 .social-media img {
-    margin: 2px;
-    width: 30px;
-}
-.currentDate {
-    text-align: center;
-    color: white;
-    margin-top: -6px;
-    margin-bottom: -4px;
+  margin: 2px;
+  width: 30px;
 }
 nav {
 	margin: 0 auto;
 	background-color: tomato;
 }
-#navMenu {
+.navigation {
 	list-style: none;
 	padding: 0;
-    margin: 0;
-    display: none;
+  margin: 0;
 }
-#navMenu.open {
-    display: block;
-}
-#navMenu li:first-child {
-	display: block;
-}
-#navMenu li {
+.navigation li {
 	display: none;
 }
-#navMenu a {
+.navigation li:first-child {
 	display: block;
-	padding: 0.75rem;
+}
+.navigation a {
+	display: block;
 	text-align: left;
 	text-decoration: none;
-	color: black;
 	font-weight: 700;
-	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
+	transition: 0.5s;
+	padding: 0.75rem;
 }
-#navMenu a:hover {
+.navigation a:hover {
 	color: white;
 	background-color: black;
 }
-#navMenu.open li {
-    display: block;
+.responsive li {
+  display: block;
 }
-header button {
-    background: transparent;
-    border: none;
-    font-size: 30px;
-    color: #fff;
-}
-#closeMenu {
-    display: none;
-}
-#menuButton.open #symbol {
-    display: none;
-}
-#menuButton.open #closeMenu {
-    display: block;
-    padding-left: 0.4em;
+.currentDate {
+  text-align: center;
+  color: white;
+  margin-bottom: -2px;
 }
 
 /* Main Styles */
