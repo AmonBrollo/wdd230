@@ -16,10 +16,10 @@ body {
   margin: 0 auto;
 }
 a {
-  color: #D6A207;
+  color: white;
 }
-a:visited{
-  color: rgb(94, 94, 94);
+a:visited {
+  color: black;
 }
 
 /* Header Styles */
