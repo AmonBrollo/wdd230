@@ -96,6 +96,10 @@ nav {
   height: 250px;
   margin: 0.5em;
   padding: 0.5em;
+  text-align: center;
+}
+.event img, .weather img, .join img {
+  width: 150px;
 }
 .join {
   display: none;
