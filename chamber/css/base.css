@@ -101,6 +101,14 @@ nav {
 .event img, .weather img, .join img {
   width: 150px;
 }
+.hero .pop-up {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.hero img {
+  height: 250px;
+}
 .join {
   display: none;
 }
@@ -118,6 +126,12 @@ nav {
 }
 .spotlights li:nth-of-type(3) {
   display: none;
+}
+.spotlights li p { 
+  padding: 1em;
+}
+.spotlight-1 img {
+  width: 200px;
 }
 
 /* Footer Sytles*/
