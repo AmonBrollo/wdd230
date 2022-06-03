@@ -53,6 +53,9 @@
   .spotlights li {
     width: 250px;
   }
+  .spotlight-1 img{
+    width: 200px;
+  }
   .join {
     display: block;
     grid-column: 1 / 3;
