@@ -68,10 +68,18 @@
       </div>
         <ul class="spotlights">
           <li class="spotlight-1">Spotlight 1<br>
-            <img src="images/unisinos-small.jpg"></li>
-          <li>Spotlight 2<br>
-            <img src="images/tecnosinos-small.jpg"></li>
-          <li>Spotlight 3</li>
+            <picture>
+              <source media="(min-width 1300px)" srcset="images/unisinos-medium.jpg">
+              <source media="(min-width 520px)" srcset="images/unisinos-medium.jpg">
+              <img src="images/unisinos-small.jpg" alt="Unisinos">
+            </picture></li>
+          <li class="spotlight-2">Spotlight 2<br>
+            <picture>
+              <source media="(min-width 1300px)" srcset="images/tecnosinos-medium.jpg">
+              <source media="(min-width 520px)" srcset="images/tecnosinos-medium.jpg">
+              <img src="images/tecnosinos-small.jpg" alt="Tecnosinos">
+            </picture></li>
+          <li class="spotlight-3">Spotlight 3</li>
         </ul>        
   </main>
   <footer>
