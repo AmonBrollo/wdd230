@@ -98,7 +98,7 @@ nav {
   padding: 0.5em;
   text-align: center;
 }
-.event img, .weather img, .join img {
+.event img, .join img {
   width: 150px;
 }
 .hero .pop-up {
@@ -144,6 +144,21 @@ nav {
 }
 .news-release p {
   padding: 0em 1em 0em 1em;
+}
+.mid-weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.weather img {
+  width: 112px;
+}
+#temp {
+  font-size: 3em;
+}
+p.weather-type {
+  font-size: 1.75em;
+  margin: 0 0 10px;
 }
 
 /* Footer Sytles*/
