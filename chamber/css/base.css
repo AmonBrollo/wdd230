@@ -187,3 +187,8 @@ footer img {
 .footer-author-info p {
   margin: 2px 0;
 }
+
+/* Discovery page */
+.discovery-main img {
+  max-width: 600px;
+}
