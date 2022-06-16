@@ -24,7 +24,7 @@ a:visited {
 
 /* Header Styles */
 header {
-  background-color: #F55D3E;
+  background-color: #193d23;
 }
 header img, footer img {
   width: 75px;
@@ -163,7 +163,7 @@ p.weather-type {
 
 /* Footer Sytles*/
 footer {    
-    background-color: #F55D3E;
+    background-color: #193d23;
     color: #fff;
     display: flex;
     flex-direction: column;
