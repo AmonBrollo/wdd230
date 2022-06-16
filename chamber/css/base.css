@@ -192,3 +192,15 @@ footer img {
 .discovery-main img {
   max-width: 600px;
 }
+.discovery-1, .discovery-2, .discovery-3,
+.discovery-4,.discovery-5,.discovery-6 {
+
+  background-color: #8E8E8E;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  color: #fff;
+  max-width: 92vw;
+  width: 650px;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+}
