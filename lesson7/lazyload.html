@@ -7,9 +7,45 @@
     <title>🦥 Lazy Loading</title>    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        body {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        picture img[data-src] {
+        filter: blur(0.2em);
+        }
+
+        picture img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+        }
+    </style>
     <h1>Progressive Leading Images</h1>
 </head>
 <body>
-    
+    <picture>
+        <img src="images/placeholder.png" data-src="images/pic1.jpg">
+    </picture>
+    <picture>
+        <img src="images/placeholder.png" data-src="images/pic2.jpg">
+    </picture>
+    <picture>
+        <img src="images/placeholder.png" data-src="images/pic3.jpg">
+    </picture>
+    <picture>
+        <img src="images/placeholder.png" data-src="images/pic4.jpg">
+    </picture>
+    <picture>
+        <img src="images/placeholder.png" data-src="images/pic5.jpg">
+    </picture>
+    <picture>
+        <img src="images/placeholder.png" data-src="images/pic6.jpg">
+    </picture>
+<script src="script.js"></script>
 </body>
 </html>
