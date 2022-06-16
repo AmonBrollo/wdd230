@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="images/icon.ico">
+    <title>Home | São Leo Chamber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tapestry&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
-    
+    <header>
+        <div id="banner" style="display: block;">
+        <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2></div>
+        <div class="upper-header">
+          <img src="images/Chamber-logo.png" alt="São Leopoldo Chamber of Commerce logo">
+          <h1><span class="main-title">São Leopoldo</span><br/>Chamber of Commerce</h1>
+          <div class="social-media">
+            <a href="https://www.whatsapp.com/">
+              <img src="images/whatsapp_icon.png" alt="Whatsapp link"></a>
+            <a href="https://www.facebook.com/">
+              <img src="images/facebook_icon.png" alt="Facebook link"></a>
+          </div>
+        </div>
+        <nav>
+          <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9778; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+      <p class="currentDate"></p>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <div class="footer-commerce-info">
+          <div>
+            <img src="images/Chamber-logo.png" alt="São-Leopoldo-Chamber-of-Commerce-logo">
+            <p><strong>São Leopoldo Chamber of Commerce</strong><br />12345 Main St, São Leopoldo, RS 1234567</p>
+          </div>        
+          <p class="contact-info">contact@saoleochamber.com<br />+55 51 987654321<br /><a href="#">📍 Location Map</a></p>       
+        </div>
+        <div class="footer-author-info">
+          <p class="copyright">&copy; <span id="currentYear"></span> São Leopoldo Chamber</p>
+          <p class="my-name">Amon Brollo</p>
+          <p><span>WDD 230 Project</span></p>
+          <p class="update">Last Updated: <span id="lastUpdate"></span></p>
+        </div>
+    </footer>
+    <script src="js/getCurrentDateAndTime.js"></script>
+    <script src="js/getCurrentYear.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/getCurrentDate.js"></script>
+    <script src="js/getDay.js"></script>
+    <script src="js/windChill.js"></script>
 </body>
 </html>
