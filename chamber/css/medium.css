@@ -118,6 +118,9 @@
   .discovery-main img {
     grid-column: 2/3;
   }
+  .discovery-main img:hover {
+    box-shadow: 0 0 50px #333;
+  }
   .discovery-main p, .discovery-main h1, .discovery-main h2,
   .demographic {
     grid-column: 1/2;
@@ -127,5 +130,6 @@
   }
   #brasão {    
     margin-top: -250px;
+    box-shadow: none;
   }
 }
