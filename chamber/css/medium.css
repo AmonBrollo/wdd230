@@ -110,4 +110,9 @@
   .footer-author-info p:nth-of-type(4) {
     border: none;
   }
+  /* Discovery page */
+  .discovery-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
