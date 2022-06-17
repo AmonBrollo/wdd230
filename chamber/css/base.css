@@ -58,7 +58,7 @@ nav {
 	padding: 0;
   margin: 0;
 }
-.navigation li {
+.navigation li {  
 	display: none;
 }
 .navigation li:first-child {
@@ -193,8 +193,15 @@ footer img {
   display: flex;
   flex-direction: column;
 }
-.discovery-main img, .discovery-main p {
+.discovery-main h1 {
+  font-size: 2.5em;
+  margin-top: 2em;
+}
+.discovery-main img {
   max-width: 450px;
+}
+.discovery-main p {
+  max-width: 360px;
 }
 .discovery-1, .discovery-2, .discovery-3,
 .discovery-4,.discovery-5,.discovery-6 {
@@ -207,4 +214,15 @@ footer img {
   margin: 0.5em;
   padding: 0.5em;
   text-align: center;
+}
+.discovery-main p, .discovery-main h1, .discovery-main h2,
+.demographic {
+  padding-left: 1em;
+}
+#brasão {
+  padding: 3em;
+  max-width: 350px;
+}
+.demographic li {
+  list-style: none;
 }
