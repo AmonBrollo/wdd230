@@ -115,4 +115,17 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .discovery-main img {
+    grid-column: 2/3;
+  }
+  .discovery-main p, .discovery-main h1, .discovery-main h2,
+  .demographic {
+    grid-column: 1/2;
+  }
+  .demographic, .demographic h2, .demographic ul {
+    padding-left: 0px;
+  }
+  #brasão {    
+    margin-top: -250px;
+  }
 }
