@@ -189,8 +189,12 @@ footer img {
 }
 
 /* Discovery page */
-.discovery-main img {
-  max-width: 600px;
+.discovery-main {
+  display: flex;
+  flex-direction: column;
+}
+.discovery-main img, .discovery-main p {
+  max-width: 450px;
 }
 .discovery-1, .discovery-2, .discovery-3,
 .discovery-4,.discovery-5,.discovery-6 {
@@ -199,7 +203,7 @@ footer img {
   border: 2px solid rgba(0, 0, 0, 0.8);
   color: #fff;
   max-width: 92vw;
-  width: 650px;
+  width: 500;
   margin: 0.5em;
   padding: 0.5em;
   text-align: center;
