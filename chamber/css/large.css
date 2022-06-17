@@ -71,11 +71,27 @@
     width: 20vw;
   }
   /* Discovery page */
-  .discovery-main img, .discovery-main p {
+  .discovery-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: none;
+  }
+  .discovery-main img {
+    grid-column: 2/3;
+  }
+  .discovery-main h1, .discovery-main h2,
+  .demographic {
+    grid-column: 1/2;
+  }
+  .discovery-main img {
     max-width: 600px;
   }
   .discovery-1, .discovery-2, .discovery-3,
   .discovery-4,.discovery-5,.discovery-6 {
     width: 650;
+  }
+  #brasão {
+    padding: 3em;
+    max-width: 350px;
   }
 }
