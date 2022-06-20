@@ -1,0 +1,44 @@
+table {
+    border: 3px rgb(185, 183, 183) solid;
+    box-shadow: 10px 10px 20px rgb(34, 141, 96);
+    margin: 1em auto;
+    border-spacing: 0;
+    font-family: "Ubuntu", sans-serif;
+}  
+thead tr:first-child {
+  background-color: rgb(23, 88, 50);
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+}
+thead tr:first-child th {
+  padding: 15px;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+  font-size: 1.2em;
+  border: 1px rgb(118, 117, 117) solid;
+}
+thead tr:last-child th {
+  font-size: 1.6em;
+  background-color: rgb(43, 220, 99);
+  color: rgb(48, 48, 48);
+}
+tbody tr:nth-of-type(1), tbody tr:nth-of-type(3), tbody tr:nth-of-type(5) {
+  background-color: rgba(13, 142, 67, 0.583);
+}  
+tbody tr:nth-of-type(2), tbody tr:nth-of-type(4), tbody tr:nth-of-type(6) {
+  background-color: rgba(41, 191, 76, 0.834);
+}
+tbody tr:nth-of-type(4) td:last-child {
+  background-color: rgb(113, 195, 40);
+  color: rgb(48, 48, 48);
+}  
+tfoot tr {
+  background-color: rgb(16, 71, 39);
+  color: rgb(255, 255, 255);
+  font-size: .9em;
+}
+tfoot tr td {
+  padding: 15px;
+} 
