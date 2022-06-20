@@ -193,15 +193,30 @@ footer img {
   display: flex;
   flex-direction: column;
 }
+.discovery-main h1, .discovery-main h2,
+.demographic {
+  padding-left: 1em;
+}
 .discovery-main h1 {
   font-size: 2.5em;
   margin-top: 2em;
+}
+.description {
+  padding-left: 80px;
+}
+#brasão {
+  padding: 3em;
+  max-width: 350px;
+}
+.demographic li {
+  list-style: none;
 }
 .discovery-main img {
   max-width: 450px;
 }
 .discovery-main p {
-  max-width: 360px;
+  justify-items: center;  
+  max-width: 600px;
 }
 .discovery-1, .discovery-2, .discovery-3,
 .discovery-4,.discovery-5,.discovery-6 {
@@ -210,19 +225,7 @@ footer img {
   border: 2px solid rgba(0, 0, 0, 0.8);
   color: #fff;
   max-width: 92vw;
-  width: 500;
   margin: 0.5em;
   padding: 0.5em;
   text-align: center;
-}
-.discovery-main p, .discovery-main h1, .discovery-main h2,
-.demographic {
-  padding-left: 1em;
-}
-#brasão {
-  padding: 3em;
-  max-width: 350px;
-}
-.demographic li {
-  list-style: none;
 }
