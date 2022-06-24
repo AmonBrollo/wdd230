@@ -31,7 +31,7 @@
     width: 100%;
   }
   .hero img {
-    height: 270px;
+    height: 250px;
   }
   .news-release {
     grid-column: 1 / 3;
