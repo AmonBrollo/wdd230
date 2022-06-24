@@ -132,4 +132,25 @@
     margin-top: -250px;
     box-shadow: none;
   }
+  /* Join Styles */
+  .join-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .join-main h1 {
+    max-height: 37px;
+  }
+  form {
+    grid-column: 1/2;
+  }
+  .submitBtn {
+    width: 20%;
+    grid-column: 2/3;
+  }
+  .applicant {
+    padding: 20px 20px 20px 20px;
+  }
+  .membership {
+    max-height: 200px;
+  }
 }
