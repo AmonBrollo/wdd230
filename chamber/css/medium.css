@@ -149,6 +149,7 @@
   }
   .applicant {
     padding: 20px 20px 20px 20px;
+    max-width: 550px;
   }
   .membership {
     max-height: 200px;
