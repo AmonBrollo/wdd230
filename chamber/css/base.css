@@ -23,6 +23,9 @@ a:visited {
 }
 
 /* Header Styles */
+#banner {
+  display: none;
+}
 header {
   background-color: #193d23;
 }
