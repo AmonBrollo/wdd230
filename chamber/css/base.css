@@ -242,10 +242,16 @@ fieldset {
   border-radius: 2px;
   padding: .5rem 2%;
 }
+form {
+  max-width: 400px;
+}
 legend {
   color: white;
   margin: 0 1rem;
   padding: 0 .5rem;
+}
+.applicant {
+  padding-right: 4rem;
 }
 .top, form div {
   display: block;
