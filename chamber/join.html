@@ -50,22 +50,22 @@
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
                 <label class="top">Business Position Title (use only upper-case, spaces, and /):
                   <input type="text" name="title" minlength="7" pattern="^[A-Z\s/]*$"></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="you@someemail.com" required></label>
                 <label class="top">Phone* <input type="tel" name="phone" required></label>
                 <label class="top">Business Name* <input type="text" name="bname" required></label>
-                <label class="top">Business Description <textarea name="description" rows="10" cols="65"></textarea></label>
+                <label class="top">Business Description <textarea name="description" rows="10" cols="50"></textarea></label>
             </fieldset>
         </form>
-      </div>
-        
         <fieldset class="membership">
-            <legend>Membership Information</legend>
-            <div>Membership Level</div>
+            <legend>Membership Level</legend>
             <label class="sbs"><input type="radio" name="audience" value="free"> Free Membership</label>
             <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership</label>
             <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership</label>
             <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership</label>
         </fieldset>
+        <input type="hidden" name="dateSubmitted" id="dateSubmitted" value=""/>
+        <input type="submit" value="Join" class="submitBtn">
+      </div>
         <div class="membership-info">
           <h3>About Memberships</h3>
           <div class="free-membership">
@@ -92,8 +92,6 @@
               Memberships cost $200 a year.</p>
           </div>
         </div>
-        <input type="hidden" name="dateSubmitted" id="dateSubmitted" value=""/>
-        <input type="submit" value="Join" class="submitBtn">
     </main>
     <footer>
         <div class="footer-commerce-info">
