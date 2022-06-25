@@ -140,18 +140,27 @@
   .join-main h1 {
     max-height: 37px;
   }
-  form {
+  form, .membership {
     grid-column: 1/2;
-  }
-  .submitBtn {
-    width: 20%;
-    grid-column: 2/3;
+  }  
+  .membership-info h3{
+    min-width: 400px;
+    margin-left: -50px;
   }
   .applicant {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 4rem 20px 20px;
     max-width: 550px;
   }
   .membership {
     max-height: 200px;
+  }
+  .free-membership, .bronze-membership, 
+  .silver-membership, .gold-membership  {
+    min-width: 400px;
+    margin-left: -100px;
+  }
+  .submitBtn {
+    max-height: 50px;
+    max-width: 200%;
   }
 }
