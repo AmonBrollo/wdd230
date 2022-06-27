@@ -300,3 +300,107 @@ legend {
   width: 96%;
   max-width: 30rem;
 }
+/* Directory */
+.directory .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 5px;
+  justify-items: center;
+  align-content: center;
+  padding: 2em 0 4em;
+}
+.directory h1 {
+  text-align: center;
+}
+.directory .cards section {
+  height: auto;
+  text-align: center;
+  min-width: 300px;
+  max-width: 300px;
+  inline-size: 290px;
+  overflow-wrap: break-word;
+  border-radius: 3px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.directory .cards section a {
+  color: #fff;
+}
+.directory .cards section a:hover {
+  color: #ffd485;
+}
+.directory-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.directory-display div {
+  height: 50px;
+}
+.directory-display div img {
+  width: 24px;
+  height: 24px;
+  margin: 0.25em;
+  padding: 0.25em;
+}
+#grid-display:hover {
+  border: 2px solid #35382e;
+  transform: scale(1.05);
+}
+#list-display:hover {
+  border: 2px solid #35382e;
+  transform: scale(1.05);
+}
+#grid-display {
+  background-color: #ffd485;
+}
+#list-display {
+  background-color: transparent;
+  border: none;
+}
+.directory-list {
+  display: none;
+}
+.directory-list ul {
+  list-style: none;
+  padding: 1em 2em;
+}
+.directory-list li {
+  padding: 1em;
+  border-left: 2px solid rgba(0, 0, 0, 0.8);
+  border-right: 2px solid rgba(0, 0, 0, 0.8);
+}
+.directory-list li:nth-of-type(1),
+.directory-list li:nth-of-type(3),
+.directory-list li:nth-of-type(5),
+.directory-list li:nth-of-type(7),
+.directory-list li:nth-of-type(9) {
+  background-color: rgb(99, 43, 48);
+  color: #fff;
+}
+.directory-list li:nth-of-type(2),
+.directory-list li:nth-of-type(4),
+.directory-list li:nth-of-type(6),
+.directory-list li:nth-of-type(8) {
+  background-color: rgba(99, 43, 48, 0.6);
+  color: #fff;
+}
+.directory-list li div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1em;
+}
+.directory-list li p {
+  margin: 0.3em 0.5em;
+}
+.directory-list h3 {
+  margin: 0;
+  width: fit-content;
+}
+.directory-list a {
+  word-break: break-word;
+  color: #fff;
+  margin: 0 0.5em;
+}
