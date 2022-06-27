@@ -1,4 +1,4 @@
-const requestURL = "https://slclark4.github.io/wdd230/chamber/json/data.json";
+const requestURL = "json/directoryData.json";
 const cards = document.querySelector(".cards");
 const listItems = document.querySelector(".directory-list");
 
@@ -8,7 +8,7 @@ function callFetch(displayType) {
       return response.json();
     })
     .then(function (jsonObject) {
-      console.table(jsonObject); // temporary checking for valid response and data parsing
+      console.table(jsonObject); 
       const businesses = jsonObject["businesses"];
       businesses.forEach(displayType);
     });
