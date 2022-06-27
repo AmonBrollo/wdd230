@@ -1,0 +1,46 @@
+{
+    "businesses": [
+      {
+        "name": "Bar do Alemão",
+        "address": "Rua Padre Luís Gonzaga Jaeger, 66",
+        "phoneNumber": "(51) 9876.5432",
+        "website": "No website",
+        "membershipLevel": "Silver"
+      },
+      {
+        "name": "Cia do Sabor",
+        "address": "Av. Unisinos, 501",
+        "phoneNumber": "(51) 3590.4950",
+        "website": "https://www.ciadosabor.net/cia-dosabor-saoleopoldo",
+        "membershipLevel": "Silver"
+      },
+      {
+        "name": "Macromix",
+        "address": "Av. Theodomiro Porto da Fonseca, 2120",
+        "phoneNumber": "(51) 3458.9725",
+        "website": "https://www.macromixatacado.com.br/",
+        "membershipLevel": "gold"
+      },
+      {
+        "name": "Mega Pizza",
+        "address": " Av. Unisinos, 1465",
+        "phoneNumber": "(51) 3134.1393",
+        "website": "https://www.megapizzasl.com.br/",
+        "membershipLevel": "bronze"
+      },
+      {
+        "name": "The Hangout",
+        "address": "Av. Unisinos, 645",
+        "phoneNumber": "(51) 99317.8535",
+        "website": "https://www.thehangout.com/",
+        "membershipLevel": "bronze"
+      },
+      {
+        "name": "Unisinos",
+        "address": "Av. Unisinos, 950",
+        "phoneNumber": "(51) 3591.1122",
+        "website": "https://www.unisinos.br/",
+        "membershipLevel": "gold"
+      }
+    ]
+  }
