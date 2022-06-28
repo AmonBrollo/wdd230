@@ -336,12 +336,13 @@ legend {
   overflow-wrap: break-word;
   border-radius: 3px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(28, 44, 76, 0.8);
 }
 .directory .cards section a {
   color: #fff;
 }
 .directory .cards section a:hover {
-  color: #193d23;
+  color: #64846c;
 }
 .directory-display {
   display: flex;
@@ -366,7 +367,7 @@ legend {
   transform: scale(1.05);
 }
 #grid-display {
-  background-color: #ffd485;
+  background-color: #345b93;
 }
 #list-display {
   background-color: transparent;
@@ -389,14 +390,14 @@ legend {
 .directory-list li:nth-of-type(5),
 .directory-list li:nth-of-type(7),
 .directory-list li:nth-of-type(9) {
-  background-color: rgb(99, 43, 48);
+  background-color: rgb(28, 44, 76);
   color: #fff;
 }
 .directory-list li:nth-of-type(2),
 .directory-list li:nth-of-type(4),
 .directory-list li:nth-of-type(6),
 .directory-list li:nth-of-type(8) {
-  background-color: rgba(99, 43, 48, 0.6);
+  background-color: rgba(28, 44, 76, 0.8);
   color: #fff;
 }
 .directory-list li div {
