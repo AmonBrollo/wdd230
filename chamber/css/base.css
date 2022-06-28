@@ -315,7 +315,7 @@ legend {
 }
 .directory .cards section {
   height: auto;
-  text-align: center;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   min-width: 300px;
   max-width: 300px;
   inline-size: 290px;
@@ -327,7 +327,7 @@ legend {
   color: #fff;
 }
 .directory .cards section a:hover {
-  color: #ffd485;
+  color: #193d23;
 }
 .directory-display {
   display: flex;
