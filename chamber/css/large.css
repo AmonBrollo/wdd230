@@ -1,5 +1,5 @@
 @media (min-width: 1300px) {
-    header, footer, nav, header p {
+    header, body, footer, nav, header p {
         max-width: 1600px;
         width: 100%;
     }
