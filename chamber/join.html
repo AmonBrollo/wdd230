@@ -44,27 +44,27 @@
       <div class="column-1">
         <h1>Join Us!</h1>
         <form action="thankyou.html" method="get">
-            <fieldset class="applicant">
-                <legend>Applicant Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Business Position Title (use only upper-case, spaces, and /):
-                  <input type="text" name="title" minlength="7" pattern="^[A-Z\s/]*$"></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="you@someemail.com" required></label>
-                <label class="top">Phone* <input type="tel" name="phone" required></label>
-                <label class="top">Business Name* <input type="text" name="bname" required></label>
-                <label class="top">Business Description <textarea name="description" rows="10" cols="50"></textarea></label>
-            </fieldset>
+          <fieldset class="applicant">
+            <legend>Applicant Information</legend>
+            <label class="top">First Name* <input type="text" name="fname" required></label>
+            <label class="top">Last Name* <input type="text" name="lname" required></label>
+            <label class="top">Business Position Title (use only upper-case, spaces, and /):
+              <input type="text" name="title" minlength="7" pattern="^[A-Z\s/]*$"></label>
+              <label class="top">Email* <input type="email" name="email" placeholder="you@someemail.com" required></label>
+              <label class="top">Phone* <input type="tel" name="phone" required></label>
+              <label class="top">Business Name* <input type="text" name="bname" required></label>
+              <label class="top">Business Description <textarea name="description" rows="10" cols="50"></textarea></label>
+          </fieldset>
+          <fieldset class="membership">
+              <legend>Membership Level</legend>
+              <label class="sbs"><input type="radio" name="audience" value="free"> Free Membership</label>
+              <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership</label>
+              <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership</label>
+              <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership</label>
+          </fieldset>
+          <input type="hidden" name="dateSubmitted" id="dateSubmittedA" value=""/>
+          <input type="submit" name="submit" id="join-form" value="Join Now" class="submitBtn"/>
         </form>
-        <fieldset class="membership">
-            <legend>Membership Level</legend>
-            <label class="sbs"><input type="radio" name="audience" value="free"> Free Membership</label>
-            <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership</label>
-            <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership</label>
-            <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership</label>
-        </fieldset>
-        <input type="hidden" name="dateSubmitted" id="dateSubmitted" value=""/>
-        <input type="submit" value="Join" class="submitBtn">
       </div>
         <div class="membership-info">
           <h3>About Memberships</h3>
@@ -113,7 +113,5 @@
     <script src="js/nav.js"></script>
     <script src="js/getCurrentDate.js"></script>
     <script src="js/getDay.js"></script>
-    <script src="js/lazyLoading.js"></script>
-    <script src="js/localStorage.js"></script>
 </body>
 </html>
