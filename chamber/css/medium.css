@@ -163,4 +163,8 @@
     max-height: 50px;
     max-width: 200%;
   }
+  /* Directory Styles */
+  .directory {
+    display: block;
+  }
 }
