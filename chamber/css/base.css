@@ -5,6 +5,9 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Lato", sans-serif;
   color: white;
 }
+p {
+  color: white;
+}
 header, footer {
   padding: 1em;
   margin: 0 auto;
@@ -244,6 +247,7 @@ fieldset {
 }
 form {
   max-width: 400px;
+  color: white;
 }
 legend {
   color: white;
@@ -268,7 +272,6 @@ legend {
   color: #555;
   width: 100%;
   max-width: 26rem;
-  background-color: rgba(0,0,0,0.1);
 }
 .sbs {
   display: block;
@@ -284,7 +287,7 @@ legend {
 }
 .free-membership, .bronze-membership, 
 .silver-membership, .gold-membership {  
-  background-color: #333;
+  background-color: rgba(28, 44, 76, 0.8);
   border-radius: 3px;
   padding: 10px;
   margin: 10px;
@@ -299,6 +302,17 @@ legend {
   margin: 0 0 2rem 2%;
   width: 96%;
   max-width: 30rem;
+}
+/* Thank you  */
+.thank-you {
+  display: flex;
+  border: 3px solid #325895;
+  background-color: rgba(28, 44, 76, 0.8);
+  border-radius: 2%;
+  padding: 2em;
+  margin: 7em auto;
+  max-width: 625px;
+  align-items: center;
 }
 /* Directory */
 .directory .cards {

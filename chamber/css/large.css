@@ -94,4 +94,8 @@
     padding: 3em;
     max-width: 350px;
   }
+  /* Join */
+  #join {
+    grid-template-rows: none;
+  }
 }
