@@ -56,13 +56,16 @@
         <img src="images/museum.png" alt="Meseum">
       </div>
       <div class="weather"><h2>Weather</h2>
-        <div class="mid-weather">
-          <img src="images/cloudandsun.png" alt="Cloud and Sun">
-          <p><span id="temp">43</span>°F</p>
+        <div class="temp-container">
+          <picture>
+            <img src="" alt="Weather Icon" id="weather-icon">
+          </picture>
+          <p><span id="temp"></span>°F</p>
         </div>
-        <p class="weather-type">Cloudy</p>
+        <p class="weather-type"></p>
         <div class="wind-container">
-          <p>Wind Speed: <span id="windSpeed">5</span>mph | Wind Chill: <span id="windChill"></span>°F</p>
+          <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+          <p>Wind Chill: <span id="windChill"></span>°F</p>
         </div>
       </div>
       <div class="news-release"><h2>News Releases</h2>
@@ -114,5 +117,6 @@
   <script src="js/getCurrentDate.js"></script>
   <script src="js/getDay.js"></script>
   <script src="js/windChill.js"></script>
+  <script src="js/weatherApi.js"></script>
 </body>
 </html>
