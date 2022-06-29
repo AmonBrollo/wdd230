@@ -319,10 +319,10 @@ legend {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
   grid-template-rows: auto;
-  grid-gap: 5px;
   justify-items: center;
   align-content: center;
   padding: 2em 0 4em;
+  grid-gap: 2rem;
 }
 .directory h1 {
   text-align: center;
