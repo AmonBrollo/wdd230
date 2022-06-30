@@ -26,14 +26,14 @@
         "address": " Av. Unisinos, 1465",
         "phoneNumber": "(51) 3134.1393",
         "website": "https://www.megapizzasl.com.br/",
-        "membershipLevel": "bronze"
+        "membershipLevel": "silver"
       },
       {
         "name": "The Hangout",
         "address": "Av. Unisinos, 645",
         "phoneNumber": "(51) 99317.8535",
         "website": "https://www.thehangout.com/",
-        "membershipLevel": "bronze"
+        "membershipLevel": "silver"
       },
       {
         "name": "Unisinos",
@@ -41,6 +41,27 @@
         "phoneNumber": "(51) 3591.1122",
         "website": "https://www.unisinos.br/",
         "membershipLevel": "gold"
+      },
+      {
+        "name": "AC Cópias",
+        "address": "Av. Unisinos, 699",
+        "phoneNumber": "(51) 3590.5786",
+        "website": "http://accopias.com.br/",
+        "membershipLevel": "bronze"
+      },
+      {
+        "name": "Bosque Supermercado",
+        "address": "Av. Theodomiro Porto da Fonseca, 1859",
+        "phoneNumber": "(51) 3590.2926",
+        "website": "No website",
+        "membershipLevel": "bronze"
+      },
+      {
+        "name": "Galo Beef",
+        "address": "Av. Unisinos, 355",
+        "phoneNumber": "(51) 99760.0674",
+        "website": "https://galobeef.onpedido.com.br/",
+        "membershipLevel": "bronze"
       }
     ]
   }
