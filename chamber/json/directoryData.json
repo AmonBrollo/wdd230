@@ -5,63 +5,72 @@
         "address": "Rua Padre Luís Gonzaga Jaeger, 66",
         "phoneNumber": "(51) 9876.5432",
         "website": "No website",
-        "membershipLevel": "Silver"
+        "membershipLevel": "Silver",
+        "image": "https://amonbrollo.github.io/wdd230/chamber/images/bar_do_alem%C3%A3o.jpg"
       },
       {
         "name": "Cia do Sabor",
         "address": "Av. Unisinos, 501",
         "phoneNumber": "(51) 3590.4950",
         "website": "https://www.ciadosabor.net/cia-dosabor-saoleopoldo",
-        "membershipLevel": "Silver"
+        "membershipLevel": "Silver",
+        "image": "https://amonbrollo.github.io/wdd230/chamber/images/cia_do_sabor.jpg"
       },
       {
         "name": "Macromix",
         "address": "Av. Theodomiro Porto da Fonseca, 2120",
         "phoneNumber": "(51) 3458.9725",
         "website": "https://www.macromixatacado.com.br/",
-        "membershipLevel": "gold"
+        "membershipLevel": "Gold",
+        "image": "https://amonbrollo.github.io/wdd230/chamber/images/macromix_fora.jpg"
       },
       {
         "name": "Mega Pizza",
         "address": " Av. Unisinos, 1465",
         "phoneNumber": "(51) 3134.1393",
         "website": "https://www.megapizzasl.com.br/",
-        "membershipLevel": "silver"
+        "membershipLevel": "Silver",
+        "image": "https://amonbrollo.github.io/wdd230/chamber/images/mega_pizza.jpg"
       },
       {
         "name": "The Hangout",
         "address": "Av. Unisinos, 645",
         "phoneNumber": "(51) 99317.8535",
         "website": "https://www.thehangout.com/",
-        "membershipLevel": "silver"
+        "membershipLevel": "Silver",
+        "image": "https://amonbrollo.github.io/wdd230/chamber/images/the_hangout.jpg"
       },
       {
         "name": "Unisinos",
         "address": "Av. Unisinos, 950",
         "phoneNumber": "(51) 3591.1122",
         "website": "https://www.unisinos.br/",
-        "membershipLevel": "gold"
+        "membershipLevel": "Gold",
+        "image": "https://amonbrollo.github.io/wdd230/chamber/images/entrada_unisinos.jpg"
       },
       {
         "name": "AC Cópias",
         "address": "Av. Unisinos, 699",
         "phoneNumber": "(51) 3590.5786",
         "website": "http://accopias.com.br/",
-        "membershipLevel": "bronze"
+        "membershipLevel": "Bronze",
+        "image": ""
       },
       {
         "name": "Bosque Supermercado",
         "address": "Av. Theodomiro Porto da Fonseca, 1859",
         "phoneNumber": "(51) 3590.2926",
         "website": "No website",
-        "membershipLevel": "bronze"
+        "membershipLevel": "Bronze",
+        "image": ""
       },
       {
         "name": "Galo Beef",
         "address": "Av. Unisinos, 355",
         "phoneNumber": "(51) 99760.0674",
         "website": "https://galobeef.onpedido.com.br/",
-        "membershipLevel": "bronze"
+        "membershipLevel": "Bronze",
+        "image": ""
       }
     ]
   }
