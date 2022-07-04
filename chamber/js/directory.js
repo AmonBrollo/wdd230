@@ -17,14 +17,18 @@ function callFetch(displayType) {
 function displayCardBusinesses(business) {
   let card = document.createElement("section");
   let h3 = document.createElement("h3");
+  let img = document.createElement("img");
   let address = document.createElement("p");
   let phone = document.createElement("p");
   let website = document.createElement("a");
+  let membershipLevel = document.createElement("p");
 
   h3.textContent = business.name;
+  img.append = business.image;
   address.textContent = business.address;
   phone.textContent = business.phoneNumber;
   website.textContent = business.website;
+  membershipLevel.textContent = business.membershipLevel;
   website.setAttribute("href", business.website);
 
   if (business.website.toLowerCase() === "no website") {
@@ -32,9 +36,11 @@ function displayCardBusinesses(business) {
   }
 
   card.appendChild(h3);
+  card.appendChild(img);
   card.appendChild(address);
   card.appendChild(phone);
   card.appendChild(website);
+  card.appendChild(membershipLevel);
 
   document.querySelector("div.cards").appendChild(card);
 }
@@ -47,11 +53,13 @@ function displayListBusinesses(business) {
   let address = document.createElement("p");
   let phone = document.createElement("p");
   let website = document.createElement("a");
+  let membershipLevel = document.createElement("p");
 
   h3.textContent = business.name;
   address.textContent = business.address;
   phone.textContent = business.phoneNumber;
   website.textContent = business.website;
+  membershipLevel.textContent = business.membershipLevel;
   website.setAttribute("href", business.website);
 
   if (business.website.toLowerCase() === "no website") {
@@ -62,6 +70,7 @@ function displayListBusinesses(business) {
   groupDiv.appendChild(address);
   groupDiv.appendChild(phone);
   groupDiv.appendChild(website);
+  groupDiv.appendChild(membershipLevel);
   li.appendChild(groupDiv);
   list.appendChild(li);
 
